@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/java_3sem.iml" filepath="$PROJECT_DIR$/.idea/java_3sem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice3/practice3.iml" filepath="$PROJECT_DIR$/practice3/practice3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice4/practice4.iml" filepath="$PROJECT_DIR$/practice4/practice4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice4.1/practice4.1.iml" filepath="$PROJECT_DIR$/practice4.1/practice4.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice5/practice5.iml" filepath="$PROJECT_DIR$/practice5/practice5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice6/practice6.iml" filepath="$PROJECT_DIR$/practice6/practice6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice1/task1_1/task1_1.iml" filepath="$PROJECT_DIR$/practice1/task1_1/task1_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice1/task1_2/task1_2.iml" filepath="$PROJECT_DIR$/practice1/task1_2/task1_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice1/task1_3/task1_3.iml" filepath="$PROJECT_DIR$/practice1/task1_3/task1_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice2/task2_1/task2_1.iml" filepath="$PROJECT_DIR$/practice2/task2_1/task2_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice2/task2_2/task2_2.iml" filepath="$PROJECT_DIR$/practice2/task2_2/task2_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice2/task2_3/task2_3.iml" filepath="$PROJECT_DIR$/practice2/task2_3/task2_3.iml" />
+    </modules>
+  </component>
+</project>
