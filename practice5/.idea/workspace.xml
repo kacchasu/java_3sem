@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="762dc90b-7c98-4be1-9dee-9327b8bd27b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice3/out/production/practice3/task10/HowMany.class" beforeDir="false" afterPath="$PROJECT_DIR$/../practice3/out/production/practice3/task10/HowMany.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice5/task3/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice5/task3/MainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task3/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task3/MainFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,29 +36,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/java_3sem/practice5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\java_3sem\practice5" />
       <recent name="D:\java_3sem\practice5\src\task3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainFrame (1)">
-    <configuration name="Figure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task2.Figure" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Image" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task3.Image" />
       <module name="practice5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task2.*" />
+          <option name="PATTERN" value="task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,9 +70,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Image" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task3.Image" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task3.Main" />
       <module name="practice5" />
+      <option name="PROGRAM_PARAMETERS" value="1.jpg" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="task3.*" />
@@ -118,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainFrame (1)" />
         <item itemvalue="Application.MainFrame" />
         <item itemvalue="Application.ReadSharp" />
         <item itemvalue="Application.Image" />
-        <item itemvalue="Application.Figure" />
       </list>
     </recent_temporary>
   </component>
@@ -134,8 +141,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663450602417</updated>
+      <workItem from="1664211674571" duration="1294000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
