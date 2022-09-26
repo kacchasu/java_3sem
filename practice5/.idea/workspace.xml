@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="762dc90b-7c98-4be1-9dee-9327b8bd27b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../practice3/out/production/practice3/task10/HowMany.class" beforeDir="false" afterPath="$PROJECT_DIR$/../practice3/out/production/practice3/task10/HowMany.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice5/task3/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice5/task3/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task3/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task3/MainFrame.java" afterDir="false" />
-    </list>
+    <list default="true" id="762dc90b-7c98-4be1-9dee-9327b8bd27b0" name="Changes" comment="dd" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,8 +136,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663450602417</updated>
-      <workItem from="1664211674571" duration="1294000" />
+      <workItem from="1664211674571" duration="1405000" />
     </task>
+    <task id="LOCAL-00001" summary="dd">
+      <created>1664213005904</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664213005904</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +161,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dd" />
+    <option name="LAST_COMMIT_MESSAGE" value="dd" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
