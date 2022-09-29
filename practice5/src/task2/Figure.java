@@ -6,14 +6,6 @@ import javax.swing.*;
 import javax.swing.border.TitledBorder;
 
 public class Figure extends JFrame{
-
-    int lol=1, lal=1, kek=1;
-    int[] arrayX1 = {50,250,270,70,50};
-    int[] arrayY1 = {100,100,250,250,100};
-    int[] arrayX2 = {50,200,200,270,200,200,50,50};
-    int[] arrayY2 = {100,100,50,150,250,200,200,100};
-
-
     public Figure()  {
         setSize(1050, 1050);
         JFrame myWindow = new JFrame("random figures");

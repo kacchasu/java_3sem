@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="762dc90b-7c98-4be1-9dee-9327b8bd27b0" name="Changes" comment="dd" />
+    <list default="true" id="762dc90b-7c98-4be1-9dee-9327b8bd27b0" name="Changes" comment="dd">
+      <change afterPath="$PROJECT_DIR$/../practice6/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task2/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task2/Figure.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/java_3sem/practice5",
+    "last_opened_file_path": "D:/java_3sem/practice7",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,13 +55,13 @@
       <recent name="D:\java_3sem\practice5\src\task3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Image" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task3.Image" />
+  <component name="RunManager" selected="Application.MainFrame (1)">
+    <configuration name="Figure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task2.Figure" />
       <module name="practice5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task3.*" />
+          <option name="PATTERN" value="task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadSharp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task3.ReadSharp" />
+    <configuration name="MatchResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task1.MatchResult" />
       <module name="practice5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task3.*" />
+          <option name="PATTERN" value="task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainFrame (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Figure" />
+        <item itemvalue="Application.MatchResult" />
         <item itemvalue="Application.MainFrame" />
-        <item itemvalue="Application.ReadSharp" />
-        <item itemvalue="Application.Image" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +140,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663450602417</updated>
-      <workItem from="1664211674571" duration="1405000" />
+      <workItem from="1664211674571" duration="2054000" />
+      <workItem from="1664280779509" duration="175000" />
+      <workItem from="1664460803701" duration="1873000" />
     </task>
     <task id="LOCAL-00001" summary="dd">
       <created>1664213005904</created>
@@ -145,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664213005904</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dd">
+      <created>1664213107921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664213107921</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
