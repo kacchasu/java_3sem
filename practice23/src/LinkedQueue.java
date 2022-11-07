@@ -26,6 +26,17 @@ public class LinkedQueue extends AbstractQueue {
         head = null;
         tail = null;
     }
+    private static class Node {
+        // inv: value != null
+        Object value;
+        Node next;
+
+        public Node(Object value, Node next) {
+            assert value != null;
+            this.value = value;
+            this.next = next;
+        }
+    }
 
     public static void main(String[] args) {
         AbstractQueue queue = new LinkedQueue();
