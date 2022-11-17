@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class LabClass {
     private Student[] students = new Student[10];
     private int numStudents = 0;
@@ -18,7 +20,7 @@ public class LabClass {
         if (index == -1) {
             throw new StudentNotFoundException();
         }
-        for (int i = index; i < numStudents - 1; i++) {
+        for (int i = index; i < numStudents; i++) {
             students[i] = students[i + 1];
         }
         numStudents--;
@@ -31,5 +33,13 @@ public class LabClass {
             }
         }
         throw new StudentNotFoundException();
+    }
+
+    @Override
+    public String toString() {
+        return "LabClass{" +
+                "students=" + Arrays.toString(students) +
+                ", numStudents=" + numStudents +
+                '}';
     }
 }

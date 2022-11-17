@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30f3f679-5354-4b43-8ebe-caf8d127ce23" name="Changes" comment="" />
+    <list default="true" id="30f3f679-5354-4b43-8ebe-caf8d127ce23" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/practice10/out/production/practice10/task2/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice10/out/production/practice10/task2/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice11/out/production/practice11/task5.class" beforeDir="false" afterPath="$PROJECT_DIR$/practice11/out/production/practice11/task5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice13/task6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/practice13/task6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice7/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/practice7/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,11 +24,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/practice4" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/java_3sem/practice14"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,7 +40,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663613280158</updated>
+      <workItem from="1668696726279" duration="105000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

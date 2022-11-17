@@ -5,7 +5,6 @@ public class task8 {
         Scanner myScanner = new Scanner( System.in
         );
         String key = myScanner.next();
-        key = "";
         try {
             printDetails( key );
         } catch (Exception e) {
