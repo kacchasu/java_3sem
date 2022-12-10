@@ -1,4 +1,6 @@
-public class TableOrder implements Order {
+import java.io.Serializable;
+
+public class TableOrder implements Order, Serializable {
     private int size;
     private Customer customer;
     private MenuItem[] items;
@@ -90,6 +92,11 @@ public class TableOrder implements Order {
             }
         }
         return quantity;
+    }
+    public void print() {
+        for (int i = 0; i < size; i++) {
+            System.out.println(items[i].getName());
+        }
     }
     public MenuItem[] sortedItemsByCostDesc() {
         MenuItem[] sortedItems = new MenuItem[size];

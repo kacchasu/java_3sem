@@ -13,4 +13,5 @@ public interface Order {
     int costTotal();
     Customer getCustomer();
     void setCustomer(Customer customer);
+    void print();
 }

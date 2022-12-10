@@ -1,4 +1,6 @@
-public final class Drink extends MenuItem implements Alchoholable{
+import java.io.Serializable;
+
+public final class Drink extends MenuItem implements Alchoholable, Serializable {
     private double alcoholVol;
     private DrinkTypeEnum type;
     public Drink(String name, String description, int price, DrinkTypeEnum type, double alcoholVol) {

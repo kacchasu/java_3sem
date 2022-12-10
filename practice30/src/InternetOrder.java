@@ -1,9 +1,11 @@
-public class InternetOrder implements Order {
+import java.io.Serializable;
+
+public class InternetOrder implements Order, Serializable {
     private ListNode head;
     private ListNode tail;
     private int size;
     private Customer customer;
-    private class ListNode {
+    private class ListNode implements Serializable {
         private ListNode next;
         private MenuItem value;
     }
@@ -181,6 +183,13 @@ public class InternetOrder implements Order {
         return items;
     }
 
+    public void print(){
+        ListNode temp = head;
+        for (int i = 0; i < size; i++) {
+            System.out.println(temp.value);
+            temp = temp.next;
+        }
+    }
     public int costTotal(){
         int total = 0;
         ListNode temp = head;

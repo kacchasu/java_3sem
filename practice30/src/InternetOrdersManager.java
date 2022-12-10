@@ -1,8 +1,10 @@
-public class InternetOrdersManager implements OrderManager{
+import java.io.Serializable;
+
+public class InternetOrdersManager implements OrderManager, Serializable {
     private QueueNode head;
     private QueueNode tail;
     private int size;
-    private class QueueNode{
+    private class QueueNode implements Serializable {
         private QueueNode next;
         private QueueNode prev;
         private Order value;
@@ -79,5 +81,12 @@ public class InternetOrdersManager implements OrderManager{
             return null;
         }
         return head.value;
+    }
+    public void print(){
+        QueueNode temp = head;
+        for (int i = 0; i < size; i++) {
+            temp.value.print();
+            temp = temp.next;
+        }
     }
 }

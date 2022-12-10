@@ -1,4 +1,6 @@
-public class TableOrdersManager implements OrderManager {
+import java.io.Serializable;
+
+public class TableOrdersManager implements OrderManager, Serializable {
     private Order[] orders;
     public TableOrdersManager() {
         orders = new Order[10];

@@ -1,10 +1,12 @@
-public final class Customer {
+import java.io.Serializable;
+
+public final class Customer implements Serializable {
     private String firstName;
     private String secondName;
     private Address address;
     private int age;
     private static Customer MATURE_UNKNOWN_CUSTOMER = new Customer("Unknown", "Unknown", Address.EMPTY_ADDRESS, 21);
-    private static Customer NOT_MATURE_UNKNOWN_CUSTOMER = new Customer("Unknown", "Unknown", Address.EMPTY_ADDRESS, 20);
+    private static Customer NOT_MATURE_UNKNOWN_CUSTOMER = new Customer("Unknown", "Unknown", Address.EMPTY_ADDRESS, 17);
     public Customer(String firstName, String secondName, Address address, int age) {
         if (firstName == null || firstName.isEmpty()) {
             throw new IllegalArgumentException("First name cannot be empty");
@@ -12,9 +14,7 @@ public final class Customer {
         if (secondName == null || secondName.isEmpty()) {
             throw new IllegalArgumentException("Second name cannot be empty");
         }
-        if (address == null || address == Address.EMPTY_ADDRESS) {
-            throw new IllegalArgumentException("Address cannot be empty");
-        }
+
         if (age <= 0) {
             throw new IllegalArgumentException("Age cannot be less than or equal to zero");
         }

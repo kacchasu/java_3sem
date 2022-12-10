@@ -1,4 +1,6 @@
-public class MenuItem {
+import java.io.Serializable;
+
+public class MenuItem implements Serializable {
 private String name;
     private String description;
     private int price;
@@ -28,5 +30,8 @@ private String name;
     }
     public int getPrice() {
         return price;
+    }
+    public String toString() {
+        return String.format("%s - %s, %d", name, description, price);
     }
 }
